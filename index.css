@@ -107,7 +107,6 @@ body {
 
 section {
     padding: var(--gutter-huge) 0;
-    border-bottom: var(--border-light);
 }
 
 img {
@@ -415,8 +414,14 @@ body:not(.user-is-tabbing) a:focus {
 
 .header__text {
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 35%;
+    transform: translateY(-35%);
+}
+
+.about {
+    position: relative;
+    top: 40%;
+    transform: translateY(-40%);
 }
 
 .header__text p {
